@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-require_relative 'create_puppy.rb'
+require_relative 'puppy.rb'
 
 class App < Sinatra::Base
 
