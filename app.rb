@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/NEW' do
-    erb :index
+    erb :create_puppy
   end
 
   post '/' do
@@ -15,7 +15,7 @@ class App < Sinatra::Base
     @breed = params[:breed]
     @age = params[:age]
 
-    erb :create_puppy
+    erb :display_puppy
   end
 
 end
